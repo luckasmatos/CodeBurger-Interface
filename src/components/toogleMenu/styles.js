@@ -25,8 +25,8 @@ export const MenuContent = styled.div`
   position: absolute;
   top: -25px;
   left: ${props => (props.open ? '-25px' : '-200vw')};
-  height: 100vh;
-  width: 50%;
+  height: 90vh;
+  width: 50vw;
   background-color: red;
   display: flex;
   flex-direction: column;
