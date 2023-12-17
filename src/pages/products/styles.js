@@ -5,14 +5,16 @@ export const Container = styled.article`
     min-height: 100vh;
     width: 100%;
     overflow: hidden;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+
+    div {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
 
     @media screen and (max-width: 475px) {
       min-height: 100vh;
-      background-color: yellow;
     }
 `
 

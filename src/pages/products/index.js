@@ -51,24 +51,26 @@ export function Products({ location: { state } }) {
 
     return (
         <Container>
-            <ToogleMenu/>
+            <ToogleMenu />
             <HomeImg src={HomeImage} alt="Home image" />
-            <ContainerMenu>
-                {categories.map(category => (
-                    <CategoryButton
-                        onClick={() => setActiveCategory(category.id)}
-                        key={category.id}
-                        $isActiveCategory={activeCategory === category.id}
-                    >
-                        {category.name}
-                    </CategoryButton>
-                ))}
-            </ContainerMenu>
-            <ProductsContainer>
-                {filteredProducts.map(product => (
-                    <CardProducts key={product.id} product={product} />
-                ))}
-            </ProductsContainer>
+            <div>
+                <ContainerMenu>
+                    {categories.map(category => (
+                        <CategoryButton
+                            onClick={() => setActiveCategory(category.id)}
+                            key={category.id}
+                            $isActiveCategory={activeCategory === category.id}
+                        >
+                            {category.name}
+                        </CategoryButton>
+                    ))}
+                </ContainerMenu>
+                <ProductsContainer>
+                    {filteredProducts.map(product => (
+                        <CardProducts key={product.id} product={product} />
+                    ))}
+                </ProductsContainer>
+            </div>
         </Container>
     )
 }
