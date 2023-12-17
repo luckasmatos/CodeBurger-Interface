@@ -25,9 +25,9 @@ export const MenuContent = styled.div`
   position: absolute;
   top: -25px;
   left: ${props => (props.open ? '-25px' : '-200vw')};
-  height: 90vh;
-  width: 50vw;
-  background-color: red;
+  height: 100vh;
+  width: 60vw;
+  background-color: rgba(0,0,0,0.8);
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -109,7 +109,7 @@ export const LogoutLink = styled.a`
     align-items: center;
     justify-content: flex-end;
     gap: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 10vh;
     margin-right: 10px;
     cursor: pointer;
     border-top: 1px solid rgb(214,155,12);
