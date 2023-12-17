@@ -5,6 +5,9 @@ export const Container = styled.article`
     min-height: 100vh;
     width: 100%;
     overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
     div {
       display: flex;
