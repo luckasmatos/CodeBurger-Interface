@@ -2,7 +2,9 @@ import styled from 'styled-components'
 
 export const Container = styled.article`
     background-color: black;
-    min-height: calc(100vh - 60px);
+    min-height: 100vh;
+    width: 100%;
+    overflow: hidden;
     display: flex;
     flex-direction: column;
     align-items: center;
