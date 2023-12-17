@@ -10,6 +10,7 @@ export const Container = styled.article`
 
     @media screen and (max-width: 475px) {
       min-height: 100vh;
+      background-color: yellow;
     }
 `
 
