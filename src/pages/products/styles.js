@@ -16,6 +16,8 @@ export const Container = styled.article`
 
 export const HomeImg = styled.img`
     width: 100%;
+    display: flex;
+    justify-content: center;
 
     @media screen and (max-width: 700px) {
       width: auto;

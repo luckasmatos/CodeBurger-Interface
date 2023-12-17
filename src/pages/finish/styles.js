@@ -103,7 +103,7 @@ export const Footer = styled.footer`
     background-color: rgb(214,155,12);
     font-size: 12px;
     font-weight: 500;
-    position: absolute;
+    position: fixed;
     bottom: 0;
 `
 
