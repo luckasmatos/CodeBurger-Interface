@@ -59,6 +59,7 @@ export const BoxItens = styled.section`
         min-height: 100vh;
         width: 100%;
         margin: 0;
+        border-radius: 0;
     }
 `
 
