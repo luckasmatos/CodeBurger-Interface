@@ -53,7 +53,6 @@ export function Products({ location: { state } }) {
         <Container>
             <ToogleMenu />
             <HomeImg src={HomeImage} alt="Home image" />
-            <div>
                 <ContainerMenu>
                     {categories.map(category => (
                         <CategoryButton
@@ -70,7 +69,6 @@ export function Products({ location: { state } }) {
                         <CardProducts key={product.id} product={product} />
                     ))}
                 </ProductsContainer>
-            </div>
         </Container>
     )
 }
