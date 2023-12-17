@@ -7,17 +7,11 @@ export const Container = styled.article`
     overflow: hidden;
     display: flex;
     flex-direction: column;
-
-
-    @media screen and (max-width: 475px) {
-      min-height: 100vh;
-    }
+    justify-content: center;
 `
 
 export const HomeImg = styled.img`
     width: 100%;
-    display: flex;
-    justify-content: center;
 
     @media screen and (max-width: 700px) {
       width: auto;
