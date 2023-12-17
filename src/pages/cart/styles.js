@@ -8,6 +8,10 @@ export const Container = styled.article`
     flex-direction: column;
     align-items: center;
     justify-content: center;
+
+    @media screen and (max-width: 475px) {
+      min-height: 100vh;
+    }
 `
 
 export const InformationsContainer = styled.div`
